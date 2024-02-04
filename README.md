@@ -1,6 +1,6 @@
 # TailwindCSS-Website-Restaurant
    #checkout here:-
-https://mayank-tailwindcss-restaurant.netlify.app/
+https://mayank-tailwindcss.netlify.app/
 
 
 
