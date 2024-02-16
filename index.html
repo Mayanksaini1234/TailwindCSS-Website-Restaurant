@@ -1,0 +1,212 @@
+<!-- use flex bs ...  -->
+<!-- mistake : margin max-width , ist try flex then if it not work then this  NO NO NO !!!!!!! -->
+<!-- px or mx and use x , y or simle as need ...dont give to all  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant tailwindcss</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8fc55c4523.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-slate-950 text-white">
+
+
+    <!-- imp -->
+
+
+    <div class="container mx-auto">
+
+
+      <div
+        class="flex items-center justify-between bg-slate-950 px-6 py-4 sticky top-0 left-0 mb-10"
+      >
+        <img src="./images/logo.png" alt="logo" class="" />
+        <i class="text-[34px] fa-solid fa-bars"></i>
+      </div>
+
+      <div
+        class="flex flex-col lg:flex-row gap-10 lg:gap-40 items-center max-w-[1100px] mx-auto"
+      >
+        <img src="./images/hero_image.png" alt="hero" class="  " />
+
+        <div class="px-10">
+          <p
+            class="bg-[#0B60B0] inline-block text-center p-[6px] rounded-sm mb-[25px]"
+          >
+            50% Off on All Products
+          </p>
+
+          <h2 class="text-[4.5rem] leading-[1.2em] mb-[25px]">
+            Enjoy Your Delicious Food
+          </h2>
+          <p class="text-[#f6f3f3] text-[1.3em] mb-[25px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit .
+          </p>
+
+          <button
+            class="bg-[#F0EDCF] text-[#000000] rounded-sm p-[3px] hover:text-[#F0EDCF] hover:bg-[#40A2D8] hover:transition-all"
+          >
+            Explore Now
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row justify-center items-center gap-10 mt-10">
+        <div
+          class="flex max-w-[350px] gap-[22px] hover:bg-slate-200 rounded-[6px] p-[10px] hover:text-black shadow-lg shadow-indigo-500/50 mt-[10px] hover:ease-in-out duration-700"
+        >
+          <img
+            src="./icons/discount.png"
+            alt="discount"
+            class="w-[80px] h-[60px]"
+          />
+          <div class="">
+            <h3 class="text-[18px] font-medium">Discount Voucher</h3>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              facilis.
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex max-w-[350px] gap-[22px] hover:bg-slate-200 rounded-[6px] p-[10px] hover:text-black shadow-lg shadow-indigo-500/50 mt-[10px] hover:ease-in-out duration-700"
+        >
+          <img
+            src="./icons/fresh.png"
+            alt="discount"
+            class="w-[80px] h-[60px]"
+          />
+          <div class="">
+            <h3 class="text-[18px] font-medium">Fresh Healthy Food</h3>
+
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              facilis.
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex max-w-[350px] gap-[22px] hover:bg-slate-200 rounded-[6px] p-[10px] hover:text-black shadow-lg shadow-indigo-500/50 mt-[10px] hover:ease-in-out duration-700"
+        >
+          <img
+            src="./icons/delivery.png"
+            alt="discount"
+            class="w-[80px] h-[60px]"
+          />
+          <div class="">
+            <h3 class="text-[18px] font-medium">Fast Home Delivery</h3>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              facilis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="border-b-2 mt-[90px] max-w-[1200px] mx-auto"></div>
+
+      <div class="flex-col max-w-[1200px] mx-auto text-center">
+        <p class="mt-[40px] bg-[#0B60B0] inline-block p-[6px] rounded-sm">
+          Our Menu
+        </p>
+
+        <h3 class="mt-[40px] text-[4rem] tracking-[.2em] text-[#ebf1f5]">
+          Explore our Menu
+        </h3>
+        <div
+          class="grid gap-5 grid-rows-3 grid-cols-4 grid-flow-row-dense mt-[90px] px-6"
+        >
+          <img
+            src="./images/grid_image1.png "
+            alt="gridimg"
+            class="rounded-[6px] row-span-2 col-span-2 transition hover:ease-in-out hover:scale-90"
+          />
+          <img
+            src="./images/grid_image2.png "
+            alt="gridimg"
+            class="rounded-[6px] col-span-1 row-span-2 transition hover:ease-in-out hover:scale-90"
+          />
+          <img
+            src="./images/grid_image3.png "
+            alt="gridimg"
+            class="rounded-[6px] row-span-1 col-span-1 transition hover:ease-in-out hover:scale-90"
+          />
+          <img
+            src="./images/grid_image4.png "
+            alt="gridimg"
+            class="rounded-[6px] row-span-1 col-span-1 transition hover:ease-in-out hover:scale-90"
+          />
+          <img
+            src="./images/grid_image5.png "
+            alt="gridimg"
+            class="rounded-[6px] row-span-1 col-span-1 transition hover:ease-in-out hover:scale-90"
+          />
+          <img
+            src="./images/grid_image6.png "
+            alt="gridimg"
+            class="rounded-[6px] row-span-1 col-span-1 transition hover:ease-in-out hover:scale-90"
+          />
+          <img
+            src="./images/grid_image5.png "
+            alt="gridimg"
+            class="rounded-[6px] row-span-1 col-span-1 transition hover:ease-in-out hover:scale-90"
+          />
+          <img
+            src="./images/grid_image6.png "
+            alt="gridimg"
+            class="rounded-[6px] row-span-1 col-span-1 transition hover:ease-in-out hover:scale-90"
+          />
+        </div>
+      </div>
+
+      <div class="border -b-[1px] mt-[50px] max-w-[1200px] mx-auto"></div>
+
+      <div class="my-[50px] flex flex-col  lg:flex-row sm:justify-evenly justify-center px-6 gap-3">
+        <img
+          src="./images/logo.png"
+          alt="lol"
+          class="w-[160px] h-[60px] pt-[7px]"
+        />
+        <div>
+          <ul class="leading-9">
+            <h3 class="text-[18px] font-medium">Main links</h3>
+            <li>Order Tracking</li>
+            <li>New Order</li>
+            <li>Contact Us</li>
+            <li>News & Blogs</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="leading-10">
+            <h3 class="text-[18px] font-medium">Support</h3>
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditons</li>
+          </ul>
+        </div>
+        <div class="leading-10">
+          <h3 class="text-[18px] font-medium">Support</h3>
+          <input
+            type="email"
+            placeholder="Enter Your Email ID.. "
+            class="rounded-sm text-center text-black"
+          />
+          <h3 class="text-[18px] font-medium ">Follow Us</h3>
+
+          <div class="icon_foot flex gap-5 ">
+            <i class="fa-brands fa-facebook text-[30px]"></i>
+            <i class="fa-brands fa-linkedin text-[30px]"></i>
+            <i class="fa-brands fa-twitter text-[30px]"></i>
+            <i class="fa-brands fa-instagram text-[30px]"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
